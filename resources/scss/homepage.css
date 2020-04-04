@@ -1,0 +1,141 @@
+body{
+  height: 100%;
+  background-image: url("../img/ceis-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 100px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #006600;
+  background-color:
+  overflow-x: hidden; /* Disable horizontal scroll */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  /* padding: 6px 8px 6px 16px; */
+  text-decoration: none;
+  font-size: 1rem;
+  color: #FEFEFE;
+  display: block;
+}
+.sidenav .sidenav-margin-y{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.sidenav .sidenav-icon {
+  font-size: 2rem;
+  color: #FEFEFE;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav .sidenav-margin-y:hover{
+  background-color: #054f01;
+}
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+img.ceis-logo{
+  height: 6rem;
+  weight: auto;
+}
+
+.accountNav {
+  height: 70%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 85px; /* Stay at the top */
+  right: 40px;
+  background-color: #FEFEFE;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* The navigation menu links */
+.accountNav .closebtn {
+  /* padding: 8px 8px 8px 32px; */
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+/* When you mouse over the navigation links, change their color */
+.accountNav .closebtn:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.accountNav .closebtn {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  font-size: 36px;
+  margin-right: 50px;
+}
+.accountNav .profile-link {
+  text-decoration: none;
+  /* color: #f1f1f1; */
+}
+/* .accountNav .profile-link:hover {
+  color: #818181;
+} */
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .accountNav {padding-top: 15px;}
+  .accountNav a {font-size: 18px;}
+}
+img.user-icon{
+  height: 5rem;
+  weight: 5rem;
+  border-radius: 50%;
+}
+.nav-logo{
+  background-color: #FEFEFE;
+}
+.homepage-heading h2{
+  padding-top: 30px;
+  color: #F0679E;
+}
+.homepage-heading .green-hr{
+  /* background-color: #006600; */
+}
+.sidenav .home-active{
+  background-color: white;
+  color: #006600;
+}
+.sidenav .sidenav-icon-home-active{
+  color: #006600;
+}
+.user .user-icon{
+  font-size: 4rem;
+  color: #006600;
+}
+.user .user-icon:hover{
+  color: #054f01;
+}

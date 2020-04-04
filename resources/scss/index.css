@@ -1,0 +1,9 @@
+body{
+  height: 100%;
+  background-color: #FEFEFE;
+}
+img.ceis-logo{
+  height: 13rem;
+  weight: auto;
+  margin-top: 5%;
+}
