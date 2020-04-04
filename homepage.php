@@ -39,7 +39,7 @@
           <a href="application-for-employment">1. Application for Employment</a>
         </div>
         </div>
-        <div class="col-md-1 mx-0 user">
+        <div class="col-md-1 mx-0 text-center user">
           <span onclick="openNav()"><a class="text-center"><i class="fa fa-user-circle user-icon my-3" aria-hidden="true"></i></a></span>
         </div>
       </div>

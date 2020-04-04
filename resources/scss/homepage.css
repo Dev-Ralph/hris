@@ -61,7 +61,7 @@ img.ceis-logo{
   position: fixed; /* Stay in place */
   z-index: 1; /* Stay on top */
   top: 85px; /* Stay at the top */
-  right: 40px;
+  right: 35px;
   background-color: #FEFEFE;
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
@@ -76,7 +76,7 @@ img.ceis-logo{
   font-size: 25px;
   color: #818181;
   display: block;
-  transition: 0.3s;
+  /* transition: 0.3s; */
 }
 /* When you mouse over the navigation links, change their color */
 .accountNav .closebtn:hover {
