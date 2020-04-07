@@ -5,13 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Application for Employment</title>
-  <link rel="icon" href="resources/img/ceis-logo">
+  <link rel="icon" href="resource/img/ceis-logo">
   <link rel="stylesheet" href="vendor/css/bootstrap.css">
   <link rel="stylesheet" href="vendor/css/mdb.min.css">
   <link href="vendor/fonts/css/fontawesome.min.css" rel="stylesheet">
   <link href="vendor/fonts/css/all.css" rel="stylesheet">
-  <link rel="stylesheet" href="resources/scss/animate.min.css">
-  <link rel="stylesheet" href="resources/scss/application-for-employment.css">
+  <link rel="stylesheet" href="resource/scss/animate.min.css">
+  <link rel="stylesheet" href="resource/scss/application-for-employment.css">
   </head>
   <body>
     <!-- <nav class="navbar navbar-dark bg-white shadow-sm slide-in-left">
@@ -26,7 +26,7 @@
                  <div class='row'>
                     <div class="col-md-12 text-center header">
                       <div class="header-text-width d-inline">
-                      <img class="ceis-logo" src="resources/img/ceis-logo.png" alt="" />
+                      <img class="ceis-logo" src="resource/img/ceis-logo.png" alt="" />
                       <h4 class="ceis-text d-inline">CENTRO ESCOLAR INTEGRATED SCHOOL</h4>
                       </div>
                     </div>
@@ -64,7 +64,7 @@
                          </div>
                        <!-- content1 end -->
                      <div class="col-md-12">
-                       <a  href="#demo" data-slide="next" class="btn btn-success float-right px-5" > Next</a>
+                       <a  href="#demo" data-slide="prev" class="btn btn-success float-right px-5" > Next</a>
                      </div>
                </div>
              </div>
@@ -1261,7 +1261,7 @@
                          <a  href="#demo" data-slide="prev" class="btn btn-success float-left px-5" > Back</a>
                        </div>
                        <div class="col-md-6">
-                         <a  href="#demo" data-slide="next" class="btn btn-success float-right px-5" > Next</a>
+                        <input type="submit" name="submit" class="btn btn-success float-right px-5"  value="submit">
                        </div>
                </div>
              </div>
