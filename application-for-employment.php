@@ -64,7 +64,7 @@
                          </div>
                        <!-- content1 end -->
                      <div class="col-md-12">
-                       <a  href="#demo" data-slide="prev" class="btn btn-success float-right px-5" > Next</a>
+                       <a  href="#demo" data-slide="next" class="btn btn-success float-right px-5" > Next</a>
                      </div>
                </div>
              </div>
