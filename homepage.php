@@ -5,18 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>CEIS | Homepage</title>
-  <link rel="icon" href="resources/img/ceis-logo">
+  <link rel="icon" href="resource/img/ceis-logo">
   <link rel="stylesheet" href="vendor/css/bootstrap.css">
   <link rel="stylesheet" href="vendor/css/mdb.min.css">
   <link href="vendor/fonts/css/fontawesome.min.css" rel="stylesheet">
   <link href="vendor/fonts/css/all.css" rel="stylesheet">
-  <link rel="stylesheet" href="resources/scss/animate.min.css">
-  <link rel="stylesheet" href="resources/scss/homepage.css">
+  <link rel="stylesheet" href="resource/scss/animate.min.css">
+  <link rel="stylesheet" href="resource/scss/homepage.css">
   </head>
   <body>
     <div class="sidenav text-center">
       <div class="nav-logo py-1">
-      <a class="text-center"><img class="ceis-logo" src="resources/img/ceis-logo.png" alt="" /></a>
+      <a class="text-center"><img class="ceis-logo" src="resource/img/ceis-logo.png" alt="" /></a>
       </div>
       <a href="#" class="sidenav-margin-y home-active mt-2"><i class="fa fa-home sidenav-icon sidenav-icon-home-active" aria-hidden="true"></i>
       <br>Home</a>
@@ -24,6 +24,7 @@
       <br>Transaction</a>
       <a href="#" class="sidenav-margin-y"><i class="fa fa-inbox sidenav-icon" aria-hidden="true"></i>
       <br>Inbox</a>
+      <a href="logout.php" class="out "><span class="fas fa-sign-out-alt " href="#"></span>&nbsp;Logout</a>
     </div>
 
     <div class="container-fluid">
@@ -50,7 +51,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-12 mt-3 text-center">
-            <img class="user-icon" class="ceis-logo" src="resources/img/user-icon.jpg" alt=""/>
+            <img class="user-icon" class="ceis-logo" src="resource/img/user-icon.jpg" alt=""/>
           </div>
           <div class="col-md-12 mt-2 text-center">
             <h6>Lopez, Ralph Edwin E.</h6>
