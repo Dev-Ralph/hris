@@ -44,7 +44,7 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/hris/resource/php/class/core/init.php';
                 <label class="custom-control-label" for="defaultUnchecked">Remember Me</label>
             </div>
             <input type =hidden name="token" value="<?php echo Token::generate(); ?>">
-        <input type="submit" value="login" class="btn btn-success form-control mt-3 mx-0">
+        <button type="submit" class="btn btn-success form-control mt-3 mx-0">Login</button>
       </form>
 
 
