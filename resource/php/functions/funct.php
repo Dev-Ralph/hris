@@ -119,9 +119,6 @@ function vald(){
                             if($user->data()->groups == 1){
                                  Redirect::to('homepage.php');
                                 echo $user->data()->groups;
-                            }else{
-                                 Redirect::to('view_pending_requests.php');
-                                echo $user->data()->groups;
                             }
                         }else{
                             loginError();
@@ -203,12 +200,6 @@ function updateProfile(){
 
     }
 }
-
-
-
-
-
-
 function changeP(){
     if(input::exists()){
         $validate = new Validate;
