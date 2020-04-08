@@ -182,10 +182,10 @@
                           </div>
                        </div>
                        <!-- content 2 end -->
-                     <div class="col-md-6">
+                     <div class="col-md-6 mb-4">
                        <a  href="#demo" data-slide="prev" class="btn btn-success float-left px-5" > Back</a>
                      </div>
-                     <div class="col-md-6">
+                     <div class="col-md-6 mb-4">
                        <a  href="#demo" data-slide="next" class="btn btn-success float-right px-5" > Next</a>
                      </div>
                </div>
@@ -457,10 +457,10 @@
                           </div>
                        </div> -->
                        <!-- content 3 end -->
-                    <div class="col-md-6 mt-4">
+                    <div class="col-md-6 mt-4 mb-4">
                       <a  href="#demo" data-slide="prev" class="btn btn-success float-left px-5" > Back</a>
                     </div>
-                    <div class="col-md-6 mt-4">
+                    <div class="col-md-6 mt-4 mb-4">
                      <a  href="#demo" data-slide="next" class="btn btn-success float-right px-5" > Next</a>
                     </div>
                </div>
@@ -629,10 +629,10 @@
                         </div>
                      </div>
                     <!-- </div> -->
-                    <div class="col-md-6">
+                    <div class="col-md-6 mb-4">
                       <a  href="#demo" data-slide="prev" class="btn btn-success float-left px-5" > Back</a>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 mb-4">
                       <a  href="#demo" data-slide="next" class="btn btn-success float-right px-5" > Next</a>
                     </div>
                   </div>
@@ -899,10 +899,10 @@
                             <label for="b-17">List names of Organizations, club or societies of which you are active member in good standing</label>
                           </div>
                        </div>
-                       <div class="col-md-6">
+                       <div class="col-md-6 mb-4">
                          <a  href="#demo" data-slide="prev" class="btn btn-success float-left px-5" > Back</a>
                        </div>
-                       <div class="col-md-6">
+                       <div class="col-md-6 mb-4">
                          <a  href="#demo" data-slide="next" class="btn btn-success float-right px-5" > Next</a>
                        </div>
                </div>
@@ -1147,10 +1147,10 @@
                         <label for="c-22">Kind of work performed (for non-academic applicant)</label>
                      </div>
                    </div>
-                       <div class="col-md-6">
+                       <div class="col-md-6 mb-4">
                          <a  href="#demo" data-slide="prev" class="btn btn-success float-left px-5" > Back</a>
                        </div>
-                       <div class="col-md-6">
+                       <div class="col-md-6 mb-4">
                          <a  href="#demo" data-slide="next" class="btn btn-success float-right px-5" > Next</a>
                        </div>
                </div>
@@ -1257,11 +1257,11 @@
                         <input type="text" class="form-control text-center my-0" id="" name="">
                       </div>
                    </div>
+                   <div class="col-md-12 text-center mt-3">
+                     <input type="submit" name="submit" class="btn btn-success float-right px-5"  value="submit">
+                   </div>
                        <div class="col-md-6">
                          <a  href="#demo" data-slide="prev" class="btn btn-success float-left px-5" > Back</a>
-                       </div>
-                       <div class="col-md-6">
-                        <input type="submit" name="submit" class="btn btn-success float-right px-5"  value="submit">
                        </div>
                </div>
              </div>

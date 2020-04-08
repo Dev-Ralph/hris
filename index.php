@@ -43,11 +43,13 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/hris/resource/php/class/core/init.php';
                 <input type="checkbox" class="custom-control-input my-0" name="remember" id="defaultUnchecked">
                 <label class="custom-control-label" for="defaultUnchecked">Remember Me</label>
             </div>
-            <input type =hidden name="token" value="<?php echo Token::generate(); ?>">
-            <button type="submit" class="btn btn-success form-control mt-3 mx-0" >login</button>
+            <input type=hidden name="token" value="<?php echo Token::generate(); ?>">
+            <!-- <input type="submit" value="login" class="btn btn-success form-control mt-3 mx-0"> -->
+            <button type="submit" class="btn btn-success form-control mt-3 mx-0">LOGIN</button>
+            <div class="text-center my-2">
+              <a href="register.php" class="">Create an account</a>
+            </div>
       </form>
-
-
       </div>
     </div>
   </div>

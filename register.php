@@ -17,17 +17,70 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/hris/resource/php/class/core/init.php';
     <link rel="stylesheet" href="resource/scss/index.css">
   </head>
     <body>
-     <div class="container-fluid">
+     <div class="container">
        <div class="row animated fadeInDown">
          <div class="col-md-12 text-center">
            <img class="ceis-logo" src="resource/img/ceis-logo.png" alt="" />
          </div>
        </div>
+       <form action="" method="post">
        <div class="row row-form animated fadeInDown">
-         <div class="col-md-4 mx-auto">
            <?php vald()?>
-         <form action="" method="post">
-             <table class="table ">
+           <div class="col-md-12">
+             <h5 class="text-center mt-4">Create Account</h5>
+           </div>
+           <div class="col-md-12">
+             <p>I.</p>
+           </div>
+           <div class="col-md-4">
+             <div class="md-form">
+                <input class="form-control"  type = "text" name="lastname" id="lastname" value ="<?php echo input::get('lastname');?>" autocomplete="off" required />
+                <label for="lastname">Last Name</label>
+              </div>
+           </div>
+           <div class="col-md-4">
+             <div class="md-form">
+                <input class="form-control"  type = "text" name="firstname" id="firstname" value ="<?php echo input::get('firstname');?>" autocomplete="off" required />
+                <label for="firstname">First Name</label>
+              </div>
+           </div>
+           <div class="col-md-4">
+             <div class="md-form">
+                <input class="form-control"  type = "text" name="middlename" id="middlename" value ="<?php echo input::get('middlename');?>" autocomplete="off" required />
+                <label for="middlename">Middle Name</label>
+              </div>
+           </div>
+           <div class="col-md-12 mt-4">
+             <p>II.</p>
+           </div>
+           <div class="col-md-7 mx-auto">
+             <div class="md-form">
+                <input class="form-control"  type ="email" name="email" id="email" value ="<?php echo input::get('email');?>"/required>
+                <label for="email">Email Address</label>
+                <small id="inputValidationEx" class="text-muted my-0">Use your valid Centro Escolar University email and register here.</small>
+              </div>
+           </div>
+           <div class="col-md-6">
+             <div class="md-form">
+                <input type="password" class="form-control" name="password" id="password" value ="<?php echo input::get('password');?>" autocomplete="off"required/>
+                <label for="password">Password</label>
+              </div>
+           </div>
+           <div class="col-md-6">
+             <div class="md-form">
+                <input type="password" class="form-control" name="ConfirmPassword" id="ConfirmPassword" value ="<?php echo input::get('ConfirmPassword');?>" autocomplete="off"required/>
+                <label for="ConfirmPassword">Confirm Password</label>
+              </div>
+           </div>
+           <div class="col-md-12 text-center mb-5">
+             <div class="md-form">
+               <input type="hidden" name ="Token" value="<?php echo Token::generate();?>" />
+                <input type="submit" value="Register" class="btn btn-success" />
+             </div>
+             <a href="index.php">Go to Login</a>
+           </div>
+
+             <!-- <table class="table ">
                  <tr>
                      <td>
                          <div class="row justify-content-center">
@@ -71,10 +124,9 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/hris/resource/php/class/core/init.php';
                          </div>
                      </td>
                  </tr>
-             </table>
-          </form>
-        </div>
+             </table> -->
       </div>
+    </form>
   </div>
 </body>
 </html>
