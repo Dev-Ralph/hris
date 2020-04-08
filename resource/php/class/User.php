@@ -31,7 +31,6 @@ class User{
             return false;
         }
     }
-
     public function find($user=null){
         if($user){
             $field=(is_numeric($user)) ? 'id' :'email';
@@ -43,12 +42,12 @@ class User{
         }
         return false;
     }
-    public function login($email=null, $password=null,$remember=false){
-        if(!$email && !$password && $this->exists()){
+    public function login($username=null, $password=null,$remember=false){
+        if(!$username && !$password && $this->exists()){
             Session::put($this->_sessionName,$this->data()->id);
 
         }else{
-            $user = $this->find($email);
+            $user = $this->find($username);
             if($user){
                 if($this->data()->password === Hash::make($password,$this->data()->salt)){
                     Session::put($this->_sessionName,$this->data()->id);

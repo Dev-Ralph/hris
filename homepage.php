@@ -1,3 +1,8 @@
+<?php
+require_once $_SERVER['DOCUMENT_ROOT'].'/hris/resource/php/class/core/init.php';
+$user = new user();
+isLogin();
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
