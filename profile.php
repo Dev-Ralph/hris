@@ -18,7 +18,7 @@
       <div class="nav-logo py-1">
       <a class="text-center"><img class="ceis-logo" src="resource/img/ceis-logo.png" alt="" /></a>
       </div>
-      <a href="#" class="sidenav-margin-y home-active mt-2"><i class="fa fa-home sidenav-icon sidenav-icon-home-active" aria-hidden="true"></i>
+      <a href="homepage.php" class="sidenav-margin-y mt-2"><i class="fa fa-home sidenav-icon" aria-hidden="true"></i>
       <br>Home</a>
       <a href="#" class="sidenav-margin-y"><i class="fa fa-paperclip sidenav-icon" aria-hidden="true"></i>
       <br>Transaction</a>
@@ -33,16 +33,21 @@
         </div>
         <div class="col-md-10">
         <div class="col-md-12 homepage-heading">
-          <h2 class="">Homepage</h2>
+          <h2 class="">Profile</h2>
           <hr class="green-hr">
-        </div>
-        <div class="col-md-12">
-          <a href="application-for-employment">1. Application for Employment</a>
         </div>
         </div>
         <div class="col-md-1 mx-0 text-center user">
           <span onclick="openNav()"><a class="text-center"><i class="fa fa-user-circle user-icon my-3" aria-hidden="true"></i></a></span>
         </div>
+        <div class="col-md-10 mx-auto">
+          <div class="col-md-12 text-right">
+            <a href="#">Edit Profile</a>
+          </div>
+        <div class="col-md-12">
+          <a href="">Display Info</a>
+        </div>
+       </div>
       </div>
     </div>
 
