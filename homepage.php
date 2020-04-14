@@ -42,7 +42,10 @@ isLogin();
           <hr class="green-hr">
         </div>
         <div class="col-md-12">
-          <a href="application-for-employment">1. Application for Employment</a>
+          <a href="application-for-employment.php">1. Application for Employment</a>
+        </div>
+        <div class="col-md-12">
+          <a href="employee-cumulative-record.php">2. Employee Cumulative Record</a>
         </div>
         </div>
         <div class="col-md-1 mx-0 text-center user">
