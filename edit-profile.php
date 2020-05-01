@@ -33,7 +33,7 @@
         </div>
         <div class="col-md-10">
         <div class="col-md-12 homepage-heading">
-          <h2 class="">Profile</h2>
+          <h2 class="">Editing Profile</h2>
           <hr class="green-hr">
         </div>
         </div>
@@ -42,28 +42,47 @@
         </div>
         <div class="col-md-10 mx-auto">
           <div class="col-md-12 text-right">
-            <a href="edit-profile.php" class="btn btn-success"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-              Edit Profile</a>
+            <a href="profile.php" class="btn btn-success"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+              Cancel Editing</a>
           </div>
         <div class="row mx-auto">
         <div class="col-md-2">
           <img class="user-profile-image" src="resource/img/user-icon.jpg" alt=""/>
         </div>
         <div class="col-md-10 mt-5">
-          <h4 class="my-0">Lopez, Ralph Edwin E.</h4>
+          <div class="row">
+          <div class="col-md-4">
+            <div class="md-form m-0">
+               <input class="form-control"  type = "text" name="lastname" id="lastname" value ="" autocomplete="off" required />
+               <label for="lastname">Last Name</label>
+             </div>
+          </div>
+          <div class="col-md-4">
+            <div class="md-form m-0">
+               <input class="form-control"  type = "text" name="firstname" id="firstname" value ="" autocomplete="off" required />
+               <label for="firstname">First Name</label>
+             </div>
+          </div>
+          <div class="col-md-4">
+            <div class="md-form m-0">
+               <input class="form-control"  type = "text" name="middlename" id="middlename" value ="" autocomplete="off" required />
+               <label for="middlename">Middle Name</label>
+             </div>
+          </div>
+        </div>
         </div>
         <div class="col-md-2">
 
         </div>
         <div class="col-md-10 px-0">
-        <div class="col-md-12 mt-4">
-          <h5>Email</h5>
+        <div class="col-md-6 mt-4">
+          <div class="md-form m-0">
+             <input class="form-control"  type = "email" name="email" id="email" value ="" autocomplete="off" required />
+             <label for="firstname">Email</label>
+           </div>
         </div>
-        <div class="col-md-12">
-          <p>test@email.com</p>
-        </div>
-        <div class="col-md-12 px-0">
-          <button type="button" class="btn btn-success" name="">Change Password</button>
+        <div class="col-md-12 mt-5">
+          <button type="button" class="btn btn-success" name="">Save</button>
         </div>
         </div>
         </div>

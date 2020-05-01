@@ -46,8 +46,13 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/hris/resource/php/class/core/init.php';
             <input type=hidden name="token" value="<?php echo Token::generate(); ?>">
             <!-- <input type="submit" value="login" class="btn btn-success form-control mt-3 mx-0"> -->
             <button type="submit" class="btn btn-success form-control mt-3 mx-0">LOGIN</button>
-            <div class="text-center my-2">
-              <a href="register.php" class="">Create an account</a>
+            <div class="row px-0 my-2">
+            <div class="col-md-6 text-left">
+              <a href="application-for-employment.php" class="">CEIS Official</a>
+            </div>
+            <div class="col-md-6 text-right">
+              <a href="application-for-employment.php" class="">Online Application</a>
+            </div>
             </div>
       </form>
       </div>

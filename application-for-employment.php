@@ -78,7 +78,7 @@
                        <!-- content 2 start -->
                        <div class="col-md-8 mt-5">
                          <h6 class="d-inline">Date:</h6>
-                         <h6 class="d-inline">(Current Date)</h6>
+                         <h6 class="d-inline">(Set Current Date)</h6>
                        </div>
                        <div class="col-md-4 mt-5 float-right">
                          <div class="input-group">
