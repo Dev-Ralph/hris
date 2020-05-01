@@ -48,7 +48,7 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/hris/resource/php/class/core/init.php';
             <button type="submit" class="btn btn-success form-control mt-3 mx-0">LOGIN</button>
             <div class="row px-0 my-2">
             <div class="col-md-6 text-left">
-              <a href="application-for-employment.php" class="">CEIS Official</a>
+              <a href="https://www.ceis.edu.ph/" class="">CEIS Official</a>
             </div>
             <div class="col-md-6 text-right">
               <a href="application-for-employment.php" class="">Online Application</a>
