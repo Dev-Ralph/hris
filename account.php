@@ -23,11 +23,11 @@ isLogin();
       <div class="nav-logo py-1">
       <a class="text-center"><img class="ceis-logo" src="resource/img/ceis-logo.png" alt="" /></a>
       </div>
-      <a href="homepage.php" class="sidenav-margin-y home-active mt-2"><i class="fa fa-home sidenav-icon sidenav-icon-home-active" aria-hidden="true"></i>
+      <a href="homepage.php" class="sidenav-margin-y mt-2"><i class="fa fa-home sidenav-icon" aria-hidden="true"></i>
       <br>Home</a>
       <a href="inbox.php" class="sidenav-margin-y"><i class="fa fa-inbox sidenav-icon" aria-hidden="true"></i>
       <br>Inbox</a>
-      <a href="account.php" class="sidenav-margin-y"><i class="fa fa-user-plus sidenav-icon" aria-hidden="true"></i>
+      <a href="account.php" class="sidenav-margin-y home-active"><i class="fa fa-user-plus sidenav-icon sidenav-icon-home-active" aria-hidden="true"></i>
       <br>Account</a>
     </div>
 
@@ -37,11 +37,14 @@ isLogin();
         </div>
         <div class="col-md-10">
         <div class="col-md-12 homepage-heading">
-          <h2 class="">Homepage</h2>
+          <h2 class="">Manage Accounts</h2>
           <hr class="green-hr">
         </div>
         <div class="col-md-12">
-          <a href="employee-cumulative-record.php">Employee Cumulative Record</a>
+          <a href="#">List of accounts</a>
+        </div>
+        <div class="col-md-12">
+          <a href="create-account.php">Create a new account</a>
         </div>
         </div>
         <div class="col-md-1 mx-0 text-center user">

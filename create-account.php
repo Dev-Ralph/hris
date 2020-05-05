@@ -27,7 +27,7 @@ isLogin();
       <br>Home</a>
       <a href="inbox.php" class="sidenav-margin-y"><i class="fa fa-inbox sidenav-icon" aria-hidden="true"></i>
       <br>Inbox</a>
-      <a href="create-account.php" class="sidenav-margin-y home-active"><i class="fa fa-user-plus sidenav-icon sidenav-icon-home-active" aria-hidden="true"></i>
+      <a href="account.php" class="sidenav-margin-y home-active"><i class="fa fa-user-plus sidenav-icon sidenav-icon-home-active" aria-hidden="true"></i>
       <br>Account</a>
     </div>
 
@@ -91,7 +91,7 @@ isLogin();
         <div class="col-md-12 text-center mb-5">
           <div class="md-form">
             <input type="hidden" name ="Token" value="<?php echo Token::generate();?>" />
-             <input type="submit" value="Register" class="btn btn-success" />
+             <input type="submit" value="Create" class="btn btn-success" />
           </div>
         </div>
 

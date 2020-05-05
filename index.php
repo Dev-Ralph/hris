@@ -48,10 +48,10 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/hris/resource/php/class/core/init.php';
             <button type="submit" class="btn btn-success form-control mt-3 mx-0">LOGIN</button>
             <div class="row px-0 my-2">
             <div class="col-md-6 text-left">
-              <a href="https://www.ceis.edu.ph/" class="">CEIS Official</a>
+              <a href="https://www.ceis.edu.ph/" data-toggle="tooltip" data-placement="top" title="Visit the official website of CEIS.">CEIS Official</a>
             </div>
             <div class="col-md-6 text-right">
-              <a href="application-for-employment.php" class="">Online Application</a>
+              <a href="application-for-employment.php" data-toggle="tooltip" data-placement="top" title="Online employment application.">Online Application</a>
             </div>
             </div>
       </form>
@@ -66,3 +66,8 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/hris/resource/php/class/core/init.php';
   <script src="vendor/js/mdb.min.js"></script>
   <script src="vendor/js/bootstrap.min.js"></script>
   <script src="vendor/js/main.js"></script>
+  <script>
+    $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+    })
+  </script>
